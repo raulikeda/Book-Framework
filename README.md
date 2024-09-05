@@ -13,7 +13,7 @@ Steps to compile the book:
   - pandoc -f markdown-smart --toc --epub-embed-font='fonts/*.ttf' -o ./build/book.pdf metadata.txt contents.markdown chap1.md chap2.md --pdf-engine=tectonic
   - pandoc -f markdown-smart --toc --epub-embed-font='fonts/*.ttf' -o ./build/book.docx metadata.txt contents.markdown chap1.md chap2.md
 
-foders:
+folders:
 - draws: save the vectorized images for exporting
 - fonts: fonts used in the book
 - images: images to bee included in the content
