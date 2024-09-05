@@ -1,0 +1,23 @@
+---
+title: 'Book Title'
+type: 'Metadata'
+creator:
+  - role: author
+    text: 'Your Name'
+description: 'Description'
+rights: 'Commercial'
+language: 'pt-BR'
+stylesheet: epub.css
+cover-image: cover.jpeg
+geometry: a5paper,margin=2cm
+header-includes:
+  - \usepackage{tcolorbox}
+  - \usepackage{xcolor}
+  - \usepackage{enumitem}
+  - \usepackage{parskip} 
+  - \usepackage{array}
+  - \usepackage{listings}
+  - \usepackage{enumitem,amssymb}
+  - \usepackage{amsmath}
+
+---
